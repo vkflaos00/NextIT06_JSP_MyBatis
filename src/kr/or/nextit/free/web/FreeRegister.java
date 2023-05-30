@@ -37,9 +37,9 @@ public class FreeRegister implements NextITProcess{
 		}catch(BizNotEffectedException bne){
 			request.setAttribute("bne", bne);
 			bne.printStackTrace();
-		}catch(DaoException de){
-			request.setAttribute("de", de);
-			de.printStackTrace();
+		}catch(Exception e){
+			request.setAttribute("e", e);
+			e.printStackTrace();
 		}
 		return "/WEB-INF/views/free/freeRegister.jsp";
 		

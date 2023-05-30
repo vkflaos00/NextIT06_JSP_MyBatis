@@ -29,4 +29,7 @@ public interface IFreeBoardDao {
 	public int deleteBoard(FreeBoardVO freeBoard);
 
 	public int checkAdmin(FreeBoardVO freeBoard);
+
+
+	String getFreeBoardkey();
 }

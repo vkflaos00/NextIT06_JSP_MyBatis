@@ -40,9 +40,9 @@ public class FreeDelete implements NextITProcess{
 		}catch(BizPasswordNotMatchedException bpn){
 			request.setAttribute("bpn", bpn);
 			bpn.printStackTrace();
-		}catch(DaoException de){
-			request.setAttribute("de", de);
-			de.printStackTrace();
+		}catch(Exception e){
+			request.setAttribute("e", e);
+			e.printStackTrace();
 		}
 		
 		
