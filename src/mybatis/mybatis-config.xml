@@ -24,5 +24,6 @@
      <mapper resource="mybatis/mapper/member.xml"/>
      <mapper resource="mybatis/mapper/code.xml"/>
      <mapper resource="mybatis/mapper/common.xml"/>
+     <mapper resource="mybatis/mapper/free.xml"/>
   </mappers>
 </configuration>

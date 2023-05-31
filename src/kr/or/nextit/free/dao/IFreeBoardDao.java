@@ -31,5 +31,5 @@ public interface IFreeBoardDao {
 	public int checkAdmin(FreeBoardVO freeBoard);
 
 
-	String getFreeBoardkey();
+	public String getFreeBoardkey();
 }
